@@ -4,10 +4,11 @@
   "description": "App that allows user to add Habits and a weekly view of these habits. ",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
+  "start": "node index.js",
+  "dev": "nodemon index.js"
+   "test": "echo \"Error: no test specified\" && exit 1"
+}
+pository": {
     "type": "git",
     "url": "git+https://github.com/manikpokhetra79/HabitTrackerNodeJS.git"
   },
